@@ -15,7 +15,6 @@ connection = ActiveRecord::Base.establish_connection(
       :database => "db/artists.sqlite"
     )
 
-ActiveRecord::Base.connection.execute(sql)
 
 #connection = ActiveRecord::Base.connection
 
